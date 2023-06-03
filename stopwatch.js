@@ -29,7 +29,7 @@ function startstopwatch()
     grabSeconds.innerText=sec.toString().padStart(2,'0')
     grabMilliSeconds.innerText=count.toString().padStart(2,'0')
     start=setTimeout(startstopwatch,10)
-
+    startButton.disabled=true
     // stopButton.classList.remove("remove")
     // resetButton.classList.add("remove")
 }
@@ -40,6 +40,7 @@ stopButton.addEventListener("click",function ()
     clearInterval(start)
     stopButton.classList.add("remove")
     resetButton.classList.remove("remove")
+    startButton.disabled=false
 })
 
 resetButton.addEventListener("click",function ()
@@ -55,6 +56,8 @@ resetButton.addEventListener("click",function ()
     clearInterval(start)
     resetButton.classList.add("remove")
     stopButton.classList.remove("remove")
+    
+    startButton.disabled=false
 })
 
 
