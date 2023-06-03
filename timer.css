@@ -1,0 +1,146 @@
+body
+{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.mobile
+{
+    position: relative;
+    width: 386px;
+    height: 595px;
+    background:#1D1D23;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 3px grey;
+}
+.upperbar
+{
+    position: relative;
+    top:15px;
+    padding:0px 25px;
+    font-size: 1.2rem;
+    height:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FAFAFA;
+}
+.displayTime
+{
+    font-size: 1.7rem;
+    margin-top:25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FAFAFA;
+    word-spacing: 1px;
+    height:300px;
+}
+.buttons
+{
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.buttons button
+{
+    width: 124px;
+    height: 52px;
+    border-radius: 26px;
+    border: none;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:70px;
+    height:70px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #34344A;
+}
+.footer div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FAFAFA;
+}
+.footer div:hover
+{
+    color: greenyellow;
+    cursor: pointer;
+}
+.stop
+{
+    position: relative;
+    right:0px;
+}
+.reset
+{
+    position:relative;
+    right:0px;
+}
+.remove
+{
+    display: none;
+}
+button:hover
+{
+    cursor: pointer;
+}
+.start:hover
+{
+    box-shadow:0px 0px 5px goldenrod;
+}
+.start
+{
+    color:#34344A;
+    background-color: #F0F757;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.stop
+{
+    background-color: #39393E;
+    color: #FAFAFA;
+    font-weight: 400;
+    font-size: 1rem;
+    position: relative;
+    left: 1px;
+}
+.reset
+{
+    background-color: #39393E;
+    color: #FAFAFA;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.stop:hover,.reset:hover
+{
+    box-shadow: 0px 0px 5px grey;
+}
+.timer span {
+    position: relative;
+    top: 4px;
+}
+#inp
+{
+    outline: none;
+    border: none;
+    width:45px;
+    height:40px;
+    background-color: #1D1D23;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    overflow: hidden;
+}

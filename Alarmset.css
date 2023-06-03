@@ -1,0 +1,195 @@
+body
+{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.mobile
+{
+    position: relative;
+    width: 386px;
+    height: 595px;
+    background:#1D1D23;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 3px grey;
+}
+.upperbar
+{
+    position: relative;
+    top:15px;
+    padding:0px 25px;
+    font-size: 1.2rem;
+    height:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FAFAFA;
+}
+.displayTime
+{
+    margin-top:25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FAFAFA;
+    word-spacing: 1px;
+}
+.separate
+{
+    position: relative;
+    top:10px;
+}
+.displayHour,.displayMinutes
+{
+    font-size: 1.5rem;
+    position: relative;
+    left:17px;
+    color: #FAFAFA;
+}
+.uphr,.upmin
+{
+    margin-top:0px;
+}
+.set
+{
+    margin-top: 10px;
+    margin-left:-5px;
+}
+.set button
+{
+    width:60px;
+    background: #D9D9D9;
+    border: none;
+}
+.setAlarm
+{
+    margin-top:20px;
+    margin-left:20px;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+}
+li
+{
+    list-style: none;
+    color: green;
+}
+.weeks
+{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.alarmHeading
+{
+    margin-left: 20px;
+    color: #FAFAFA;
+}
+.alarmHeading input
+{
+    background-color: #1D1D23;
+    color: #FAFAFA;
+    font-weight: 500;
+    border: none;
+    font-size: 1rem;
+}
+#alarmHeading
+{
+    padding:5px 5px;
+    outline: none;
+}
+.full
+{
+    width:350px;
+}
+.snooze
+{
+    margin-left: 20px;
+    color: #FAFAFA;
+}
+.snooze label
+{
+    margin-left:15px;
+}
+.btns
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a
+{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+.btns button:hover
+{
+    cursor: pointer;
+    color: grey;
+    transform: translateY(-5px);
+}
+.btns button
+{
+    width:80px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    color: #FAFAFA;
+    transition: .1s;
+    transition-timing-function: ease;
+}
+.weeks li:hover
+{
+    cursor: pointer;
+    transform: translateY(-1px);
+}
+.start
+{
+    background-color:green;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 60px;
+}
+.cancel
+{
+    background-color: #555555;
+    font-size: 1rem;
+    font-weight: 500;
+    width:60px;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+    height: 70px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #34344A;
+}
+.footer div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FAFAFA;
+}
+.footer div:hover
+{
+    color: greenyellow;
+    cursor: pointer;
+}
+.timer span
+{
+    position: relative;
+    top:4px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Alarm</title>
+    <script src="https://kit.fontawesome.com/090eb9a5e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Alarmset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="mobile">
+        <div class="upperbar">
+            <div class="writeAlarm">Alarm</div>
+            <div class="options"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+        </div>
+        <div class="displayTime">
+            <div class="hours">
+                <div class="hr">Hours</div>
+                <div class="set">
+                    <button class="uphr"><i class="uphr fa-solid fa-chevron-up" style="color: #01142d;"></i></button>
+                    <div class="displayHour">00</div>
+                    <button class="dwnhr"><i class="dwnhr fa-solid fa-chevron-down"
+                            style="color: #041839;"></i></button>
+                </div>
+            </div>
+            <div class="separate"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            <div class="minutes">
+                <div class="min">Minutes</div>
+                <div class="set">
+                    <button class="upmin"><i class="upmin fa-solid fa-chevron-up" style="color: #01142d;"></i></button>
+                    <div class="displayMinutes">00</div>
+                    <button class="dwnmin"><i class="dwnmin fa-solid fa-chevron-down"
+                            style="color: #041839;"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="setAlarm"><span class="week">Sun ,</span><span class="date">&nbsp;21 may</span></div>
+        <div class="weeks">
+            <li class="sun" value="0">S</li>
+            <li class="mon" value="1">M</li>
+            <li class="tues" value="2">T</li>
+            <li class="wed" value="3">W</li>
+            <li class="thurs" value="4">T</li>
+            <li class="fri" value="5">F</li>
+            <li class="sat" value="6">S</li>
+        </div>
+        <div class="alarmHeading">
+            <h3>Alarm Name</h3>
+            <input type="text" name="ah" id="alarmHeading" placeholder="Enter Alarm Title">
+        </div>
+        <hr class="full">
+        <div class="snooze">
+            <h3>Snooze</h3>
+            <label for="sn1">5 Min
+                <input type="radio" name="snoozeTiming" id="sn1" value="5">
+            </label>
+            <label for="sn2">10 Min
+                <input type="radio" name="snoozeTiming" id="sn2" value="10">
+            </label>
+            <label for="sn3">15 Min
+                <input type="radio" name="snoozeTiming" id="sn3" value="15">
+            </label>
+            <label for="sn4">20 Min
+                <input type="radio" name="snoozeTiming" id="sn4" value="20">
+            </label>
+        </div>
+        <div class="btns">
+            <button class="start"><a href="#">Set</a></button>
+            <button class="cancel">Delete</button>
+        </div>
+        <div class="footer">
+            <div class="alarm"><img src="./fi-rr-alarm-clock.svg" alt=""><span>Alarm</span></div>
+            <div class="clock"><a href="./index.html"><img src="./fi-rr-clock.svg" alt=""></a><span>Clock</span>
+            </div>
+            <div class="timer"><a href="./timer.html"><img src="./fi-rr-hourglass.svg" alt=""></a><span>Timer</span></div>
+            <div class="stopwatch"><a href="./stopwatch.html"><img src="./fi-rr-stopwatch.svg" alt=""></a>
+                <span>Stopwatch</span>
+            </div>
+        </div>
+    </div>
+    <script src="./Alarmset.js"></script>
+</body>
+
+</html>
